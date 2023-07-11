@@ -29,6 +29,10 @@
     color: rgba(39, 39, 39, 60%);
 }
 
+.colored-text{
+    color: #E55473;
+}
+
 .main-header{
     height: 100vh;
     background-color: rgb(229, 84, 115, 10%);
@@ -121,8 +125,25 @@
 }
 
 .deals{
-    background-color: bisque;
+    background-color: rgb(229, 84, 115, 5%);
     height: 60vh;
     width: 100%;
     margin-top: 128px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.deals article{
+    text-align: center;
+    width: 500px;
+}
+
+.deals article p{
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+
+.deals img{
+    height: 300px;
 }
