@@ -161,3 +161,8 @@
 .instagram-cards img{
     width: 23%;
 }
+
+.newsletter{
+    width: 75%;
+    background-image: url(./assets/Rectangle\ 9.png);
+}
