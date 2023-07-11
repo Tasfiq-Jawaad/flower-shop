@@ -145,3 +145,19 @@
 .deals img{
     height: 300px;
 }
+
+.instagram-section{
+    margin: auto;
+    margin-top: 128px;
+    width: 75%;
+}
+
+.instagram-cards{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 47px;
+}
+
+.instagram-cards img{
+    width: 23%;
+}
