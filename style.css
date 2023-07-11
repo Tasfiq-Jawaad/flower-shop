@@ -33,15 +33,17 @@
     height: 100vh;
     background-color: rgb(229, 84, 115, 10%);
     display: flex;
-    justify-content: space-evenly;
-    padding: 30px 60px 0px 80px;
+    justify-content: space-between;
+    padding: 30px 180px 0px 180px;
 }
+
 .main-header-texts{
     display: flex;
     flex-direction: column;
     justify-content: center;
     width: 515px;
 }
+
 .main-header h1{
     font-size: 60px;
     margin-bottom: 32px;
@@ -51,7 +53,6 @@
     margin-bottom: 32px;
 }
 
-
 .featured-section{
     width: 75%;
     margin: auto;
@@ -59,16 +60,54 @@
 
 .featured-header{
     text-align: center;
+    width: 40%;
+    margin: 178px auto 47px auto;
 }
 
 .featured-header h2{
-    font-family: 'Lato', sans-serif;
-    font-weight: 1000;
     font-size: 30px;
-    color: #272727;
-    margin-bottom: 32px;
+    margin-bottom: 20px;
 }
 
 .featured-flowers{
+    display: flex;
+    justify-content: center;
+}
 
+.flower-container{
+    height: 380px;
+    width: 350px;
+    border-radius: 300px 300px 0 0;
+    display: flex;
+    justify-content: center;
+}
+
+#first-flower{
+    background-color: rgb(167, 33, 98, 15%);
+    align-items: end;
+}
+
+#first-flower img{
+    height: 80%;
+}
+
+#second-flower{
+    background-color: rgb(5, 151, 160, 15%);
+    align-items: center;
+}
+
+#second-flower img{
+    height: 60%;
+    margin-top: 55px;
+    margin-left: 30px;
+}
+
+#third-flower{
+    background-color: rgb(71, 125, 17, 15%);
+    align-items: end;
+}
+
+#third-flower img{
+    height: 85%;
+    margin-left: 5px;
 }
