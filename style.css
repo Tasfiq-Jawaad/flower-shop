@@ -195,3 +195,31 @@ input{
     margin-top: 48px;
     margin-right: 16px;
 }
+
+footer{
+    margin-top: 128px;
+    height: 449px;
+    background-color: #111010;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer-headline{
+    font-family: 'Lato', sans-serif;
+    font-weight: 1000;
+    color: #ffffff;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+#footer-secondary-text{
+    color: rgb(255, 255, 255, 90%);
+    margin-bottom: 30px;
+}
+
+#rights-reserved{
+    color: rgb(255, 255, 255, 40%);
+}
